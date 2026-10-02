@@ -1,67 +1,61 @@
-# Gizlilik Politikası
+# Gizlilik Politikası — Water Reminder Hydrate Daily
 
-**Son Güncelleme:** 7 Ağustos 2026
+**Son güncelleme:** 2 Ekim 2026
 
-Bu Gizlilik Politikası, **Water Reminder Hydrate Daily** (“Uygulama”) uygulamasının kullanıcı gizliliğine ilişkin uygulamalarını açıklamaktadır.
+## Uygulama ve iletişim
 
-**Paket Adı:** `com.waterreminder.hydratedaily`
+Water Reminder Hydrate Daily (com.waterreminder.hydratedaily), Victorium Soft tarafından sunulan su tüketimi ve günlük aktivite takip uygulamasıdır. Gizlilik soruları için muzafferodemis1907gfb@gmail.com adresine yazabilirsiniz.
 
-## 1. Kişisel Veri Toplama
+## Cihazda işlenen bilgiler
 
-Water Reminder Hydrate Daily, kullanıcılarından herhangi bir kişisel veri toplamaz.
+Su ve içecek kayıtları, günlük hedef, geçmiş, hatırlatıcı saatleri, kullanıcının girdiği yaş, kilo ve aktivite düzeyi gibi akıllı hedef ayarları, adımlar, rozetler, tema ve bildirim tercihleri özellikleri sunmak amacıyla cihazda işlenebilir. Bu kayıtlar geliştiricinin sunucusuna gönderilmez.
 
-Uygulama ad, soyad, e-posta adresi, telefon numarası, konum bilgisi, kişi listesi, fotoğraf veya video, finansal bilgi, kullanıcı hesabı bilgisi ya da reklam kimliği gibi kişisel bilgileri toplamaz, kaydetmez veya herhangi bir sunucuya göndermez.
+CSV/JSON dışa aktarma ve yedekleme yalnızca kullanıcı başlattığında çalışır. Paylaşılan dosya, kullanıcının seçtiği hedefin gizlilik şartlarına tabidir.
 
-## 2. Cihazda Saklanan Veriler
+## Adım sensörü ve Health Connect
 
-Uygulamanın çalışması için gerekli kullanıcı tercihleri ve uygulama kullanımına ilişkin bilgiler yalnızca kullanıcının cihazında yerel olarak saklanabilir. Bu bilgiler uygulamanın özelliklerini sağlamak amacıyla kullanılır ve geliştiriciye veya üçüncü taraf sunuculara gönderilmez.
+Kullanıcı adım sayacını açtığında ACTIVITY_RECOGNITION izniyle cihazın adım sensörü kullanılabilir. Etkin arka plan adım takibi Android ön plan hizmeti ve görünür bildirimle sürdürülür.
 
-Uygulamanın kaldırılması veya uygulama verilerinin cihaz ayarlarından temizlenmesi durumunda cihazda saklanan bu veriler silinebilir.
+Kullanıcı izin verirse android.permission.health.READ_STEPS aracılığıyla Health Connect'ten adım toplamları okunabilir. Veriler günlük/haftalık aktivite ve su-adım analizi için cihazda işlenir; geliştirici sunucusuna gönderilmez. İzin Health Connect ayarlarından geri alınabilir. Health Connect'teki kaynak kayıtlar yerel veri silme işleminden bağımsızdır.
 
-## 3. Verilerin İnternet Üzerinden Aktarılması
+## Reklamlar ve üçüncü taraflarla veri işleme
 
-Water Reminder Hydrate Daily, kullanıcı verilerini kendi sunucularına veya başka bir uzak sunucuya aktarmaz. Kullanıcı verileri satılmaz, kiralanmaz, paylaşılmaz veya reklam amacıyla kullanılmaz.
+Uygulama Google AdMob reklam hizmeti kullanır. Google Mobile Ads SDK, reklam sunumu, ölçüm, analiz ve sahtekârlığı önleme amacıyla IP adresi (yaklaşık konum çıkarımı için kullanılabilir), uygulama ve reklam etkileşimleri, tanılama bilgileri ve cihaz/uygulama tanımlayıcılarını Google'a otomatik iletebilir. Reklam kimliğinin kullanımı cihaz ayarlarına ve uygulamanın SDK yapılandırmasına bağlıdır.
 
-## 4. Üçüncü Taraflarla Veri Paylaşımı
+Uygulamanın çocukları da içerebilen hedef kitlesi nedeniyle reklam istekleri çocuklara yönelik işlem sinyali ve en fazla G içerik derecesiyle yapılandırılır. Bu ayarlar Google'ın veri işlemesini tamamen ortadan kaldırmaz. Geliştirici kullanıcının su, profil veya adım kayıtlarını AdMob'a reklam hedefleme için doğrudan göndermez ve bu kayıtları satmaz.
 
-Uygulama kişisel veri toplamadığı için kişisel kullanıcı verilerini üçüncü taraflarla paylaşmaz. Kullanıcı davranışlarını takip etmek amacıyla reklam, profil oluşturma veya kullanıcı takibi hizmetleri kullanılmaz.
+## Google Play Billing ve Premium
 
-## 5. İzinler
+Reklamsız Premium satın alma Google Play üzerinden yapılır. Uygulama Premium hakkını yönetmek için satın alma durumunu ve işlem tanımlayıcılarını işleyebilir; geliştirici ödeme kartı veya banka hesabı bilgilerini doğrudan almaz. Google Play'in kendi veri işleme kuralları geçerlidir.
 
-Uygulama, temel özelliklerin çalışması için Android işletim sistemi tarafından sağlanan belirli izinleri isteyebilir. Bu izinler yalnızca ilgili uygulama özelliğini sağlamak amacıyla kullanılır.
+## Wear OS
 
-İzinler aracılığıyla erişilen bilgiler geliştiricinin sunucularına gönderilmez ve üçüncü taraflarla paylaşılmaz. Kullanıcılar Android cihazlarının ayarlarından verilen izinleri görüntüleyebilir veya iptal edebilir.
+Eşleştirilmiş Wear OS saati kullanılırsa su ve adım özetleri ile uygulama durumu Google Play Hizmetleri Data Layer aracılığıyla telefon ve saat arasında aktarılabilir. Geliştirici bu veriler için ayrı bir sunucu işletmez.
 
-## 6. Bildirimler
+## Kullanılan izinler
 
-Uygulama, su içme hatırlatmaları ve temel işlevleri kapsamında kullanıcının cihazında yerel bildirimler gösterebilir. Bildirim oluşturmak için kullanılan tercihler yalnızca cihazda saklanır ve herhangi bir uzak sunucuya gönderilmez.
+ACTIVITY_RECOGNITION ve FOREGROUND_SERVICE_HEALTH, etkinleştirilmiş adım takibi için; READ_STEPS, izinli Health Connect adım okuma için; POST_NOTIFICATIONS, su/aktivite bildirimleri için; INTERNET, ACCESS_NETWORK_STATE ve AD_ID, AdMob, Google Play Billing ve desteklenen hizmetler için; RECEIVE_BOOT_COMPLETED, etkin hatırlatıcıları yeniden kurmak için kullanılabilir.
 
-## 7. Reklamlar
+## Güvenlik, saklama ve silme
 
-Water Reminder Hydrate Daily, kullanıcıların kişisel verilerini reklam amacıyla toplamaz veya satmaz. İleride üçüncü taraf reklam veya analiz hizmetleri kullanılmaya başlanması durumunda bu Gizlilik Politikası buna göre güncellenecektir.
+Uygulamanın kendi kayıtları Android'in uygulamaya özel yerel depolamasında tutulur ve Android sistem yedeklemesi kapalıdır. Google, Mobile Ads SDK verilerini ağ üzerinden TLS ile aktardığını belirtir. Hiçbir yöntem mutlak güvenlik garantisi sunmaz.
 
-## 8. Çocukların Gizliliği
+Yerel veriler uygulama içindeki “Tüm yerel verileri sil” işlevi, Android uygulama verilerini temizleme veya uygulamayı kaldırma ile silinebilir. Dışa aktarılan dosyaların ve Health Connect kaynak kayıtlarının ayrıca silinmesi gerekebilir. Google'ın reklam/satın alma verilerinin saklama ve silinmesi kendi gizlilik politikasına tabidir.
 
-Uygulama bilerek çocuklardan kişisel bilgi toplamaz. Uygulama herhangi bir kullanıcıdan kişisel veri toplamadığı için çocuklara ait kişisel bilgiler de geliştiricinin sunucularında saklanmaz.
+## Çocukların gizliliği
 
-## 9. Veri Güvenliği
+Uygulama çocukları da içerebilen bir kitleye sunulabilir. Geliştirici su, profil ve adım kayıtlarını kendi sunucusunda toplamaz. Reklam isteklerinde çocuklara yönelik işlem sinyali ve G içerik derecesi sınırı kullanılır. Ebeveynler ve kullanıcılar cihaz izinlerini yönetebilir.
 
-Kullanıcıyla ilgili uygulama verileri cihaz üzerinde yerel olarak tutulur. Bununla birlikte hiçbir elektronik cihaz veya veri saklama yöntemi mutlak güvenlik sağlayamaz.
+## Sağlık uyarısı
 
-## 10. Veri Silme
+Uygulama tıbbi cihaz değildir. Su hedefleri, hidrasyon skoru, adım, tahmini mesafe ve su-aktivite ilişkisi gibi çıktılar genel iyi yaşam ve kişisel takip içindir; teşhis, tedavi veya profesyonel sağlık tavsiyesi değildir.
 
-Water Reminder Hydrate Daily herhangi bir kullanıcı hesabı oluşturmadığı ve kullanıcı verilerini harici bir sunucuda saklamadığı için geliştiricinin sunucularından silinmesi gereken bir kullanıcı hesabı veya kişisel veri bulunmamaktadır.
+## Değişiklikler
 
-Cihazda saklanan uygulama verileri, uygulamanın verileri temizlenerek veya uygulama cihazdan kaldırılarak silinebilir.
+Uygulamanın özellikleri veya veri işleme uygulamaları değiştiğinde bu politika güncellenebilir. Güncelleme tarihi sayfanın başında gösterilir.
 
-## 11. Gizlilik Politikasındaki Değişiklikler
+Gizlilik iletişimi: muzafferodemis1907gfb@gmail.com
 
-Bu Gizlilik Politikası uygulamanın özelliklerinde, veri işleme yöntemlerinde veya yasal gerekliliklerde değişiklik olması durumunda güncellenebilir. Güncellenmiş politika bu sayfada yayımlanacak ve “Son Güncelleme” tarihi değiştirilecektir.
+Google Gizlilik Politikası: https://policies.google.com/privacy
 
-## 12. İletişim
-
-Bu Gizlilik Politikası hakkında sorularınız için geliştiriciyle iletişime geçebilirsiniz.
-
-**Uygulama:** Water Reminder Hydrate Daily  
-**Paket Adı:** `com.waterreminder.hydratedaily`  
-**E-posta:** muzafferodemis1907gfb@gmail.com
+Google Mobile Ads SDK veri açıklaması: https://developers.google.com/admob/android/privacy/play-data-disclosure
