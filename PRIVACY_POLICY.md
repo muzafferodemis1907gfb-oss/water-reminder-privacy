@@ -1,10 +1,24 @@
 # Gizlilik Politikası — Water Reminder Hydrate Daily
 
-**Son güncelleme:** 2 Ekim 2026
+**Son güncelleme:** 3 Ekim 2026
 
 ## Uygulama ve iletişim
 
 Water Reminder Hydrate Daily (com.waterreminder.hydratedaily), Victorium Soft tarafından sunulan su tüketimi ve günlük aktivite takip uygulamasıdır. Gizlilik soruları için muzafferodemis1907gfb@gmail.com adresine yazabilirsiniz.
+
+## SAĞLIK VERİLERİ: ERİŞİM, TOPLAMA, KULLANIM VE PAYLAŞIM
+
+**Hangi sağlık verilerine erişiyoruz?** Uygulama, kullanıcının kaydettiği su ve içecek miktarları ile tüketim tarih/saatlerine, günlük su hedeflerine ve isteğe bağlı kilo/aktivite düzeyi ayarlarına erişir. Kullanıcı adım takibini açarsa `android.permission.ACTIVITY_RECOGNITION` ile cihazın adım sensöründen günlük adım sayısı ve zaman aralıklarına göre hareket bilgisi alınır. Kullanıcı Health Connect izni verirse `android.permission.health.READ_STEPS` ile adım sayısı ve kayıt zamanı okunur.
+
+**Nasıl erişiliyor ve hangi amaçla kullanılıyor?** Su kayıtları ve isteğe bağlı hedef ayarları kullanıcı tarafından girilir. Adımlar, kullanıcı etkinleştirdiğinde cihaz sensöründen ve kullanıcı ayrıca izin verdiğinde Health Connect'ten okunur. Veriler cihazda günlük/haftalık/aylık su ve adım grafikleri, hedef ilerlemesi, su-adım karşılaştırması, aktivite özeti, hidrasyon skoru, akıllı hatırlatıcı ve kişiselleştirilebilir hedef için işlenir. Tıbbi teşhis veya tedavi amacıyla kullanılmaz.
+
+**Toplama, paylaşım ve aktarım:** Geliştirici bu sağlık verilerini kendi sunucularına toplamaz. Su, kilo/aktivite ve adım verileri AdMob'a, reklam hedefleme ortaklarına veya veri aracılarına aktarılmaz ya da satılmaz. İsteğe bağlı Wear OS senkronizasyonunda su/adım özetleri eşleştirilmiş cihazlar arasında Google Play Hizmetleri Data Layer ile aktarılabilir. Kullanıcı isteğe bağlı CSV/JSON dışa aktarmayı kullanırsa yalnızca kendi seçtiği hedefe dosya gönderilir. AdMob'un sağlık kayıtlarından ayrı olarak işlediği reklam/cihaz verileri aşağıdaki reklam bölümünde açıklanır.
+
+**Saklama, silme ve izinler:** Uygulamanın tuttuğu kayıtlar cihazdaki uygulamaya özel yerel depolamada kalır. Kullanıcı bunları uygulamanın veri silme özelliğiyle veya Android uygulama verilerini temizleyerek ya da uygulamayı kaldırarak silebilir. ACTIVITY_RECOGNITION izni Android ayarlarından, READ_STEPS izni Health Connect ayarlarından geri alınabilir. Uygulama verilerini silmek Health Connect'in özgün kayıtlarını veya dışa aktarılmış dosyaları otomatik silmez.
+
+## HEALTH DATA DISCLOSURE (ENGLISH)
+
+Water Reminder Hydrate Daily accesses user-entered water/beverage intake amounts and timestamps, hydration goals and optional weight/activity settings. When the user enables step tracking, the app accesses step counts and time-binned activity through the device step sensor using `ACTIVITY_RECOGNITION`; if the user separately authorizes Health Connect, it reads step counts and record times through `android.permission.health.READ_STEPS`. These data are processed on-device for daily/weekly/monthly charts, step and hydration targets, activity summaries, water-step comparisons, reminder scheduling and nonmedical wellness scores. The developer does not collect this health data on developer-operated servers or sell/provide it to AdMob or advertising partners. Optional Wear OS synchronization transfers water/step summaries between paired devices through Google Play services; user-directed CSV/JSON export sends selected data to destinations chosen by the user. App-stored data can be deleted in the app or by clearing app storage/uninstalling. Health Connect permission can be revoked in Health Connect settings; deleting local data does not delete original Health Connect records or exported files. AdMob independently processes advertising/device data disclosed below.
 
 ## Cihazda işlenen bilgiler
 
